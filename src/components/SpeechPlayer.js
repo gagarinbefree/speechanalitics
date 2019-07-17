@@ -21,8 +21,8 @@ class SpeechPlayer extends React.Component {
                     <Media ref={this.mediaRef}>
                         <div className="media w-100">
                             <Player src="audio.wav" ref={this.audioRef} />
-                            <div className="col-xl-1 .col-lg-1.col-md-1 .col-sm-1 col-1">
-                                <div className="mt-1 ml-3" onClick={this.onClick}>
+                            <div className="col-xl-1 .col-lg-1.col-md-1 .col-sm-1 col-1" onClick={this.onClick}>
+                                <div className="mt-1 ml-3">
                                     <PlayPause className={this.state.playPauseStyle} />
                                 </div>
                             </div>
