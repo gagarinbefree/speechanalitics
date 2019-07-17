@@ -2,9 +2,10 @@
   "name": "speechanalitics",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://gagarinbefree.github.io/speechanalitics",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "classnames": "^2.2.6",
+    "gh-pages": "^2.0.1",
     "immer": "^3.1.3",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.9",
@@ -21,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

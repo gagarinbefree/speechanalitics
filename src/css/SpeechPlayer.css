@@ -1,0 +1,58 @@
+.hide-text {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+.sp-button-play {
+    background: url(../img/play.png) no-repeat 2% 2%;
+    background-size: 100%;
+    border: 0;
+    height: 32px;
+    width: 32px;
+    font-size: 0px;
+}
+
+:focus {
+    outline: -webkit-focus-ring-color auto 0px !important;
+}
+
+.sp-button-pause {
+    background: url(../img/pause.png) no-repeat 2% 2%;
+    background-size: 100%;
+    border: 0;
+    height: 32px;
+    width: 32px;
+    font-size: 0px;
+}
+
+input[type=range] {
+    -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+    height:3px;
+    width:100%;
+    cursor: pointer;
+    background: #2b7df4;
+    margin: 20px;
+  }
+  
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 5px solid#2b7df4;
+    height: 5px;
+    width: 5px;
+    border-radius: 20px;
+    background: #fff;
+    cursor: pointer;
+    margin-top: 0px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+  }
+
+  .row {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .block {
+    width: 500px;
+  }
