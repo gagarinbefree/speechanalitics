@@ -1,6 +1,5 @@
 import * as React from "react";
 import { Media, Player, controls } from "react-media-player";
-import "../css/SpeechPlayer.css";
 
 const { PlayPause, SeekBar, CurrentTime, Duration } = controls;
 
@@ -13,8 +12,6 @@ class SpeechPlayer extends React.Component {
 
         this.audioRef = React.createRef();
         this.mediaRef = React.createRef();
-
-        this.interval = null;
     }
 
     render() {
@@ -23,7 +20,7 @@ class SpeechPlayer extends React.Component {
                 <div className="row justify-content-center mt-1">
                     <Media ref={this.mediaRef}>
                         <div className="media w-100">
-                            <Player src="audio.wav" ref={this.audioRef} onPause={this.onPause} onPlay={this.onPlay}/>
+                            <Player src="audio.wav" ref={this.audioRef} />
                             <div className="col-xl-1 .col-lg-1.col-md-1 .col-sm-1 col-1">
                                 <div className="mt-1 ml-3" onClick={this.onClick}>
                                     <PlayPause className={this.state.playPauseStyle} />
@@ -42,14 +39,10 @@ class SpeechPlayer extends React.Component {
         </div>
     }
 
-    onPlay = () => {
+    componentDidMount() {
         this.interval = setInterval(() => this.props.onTimeUpdate(this.audioRef.current.instance.currentTime), 100);
     }
-
-    onPause = () =>  {
-        clearInterval(this.interval);
-    }
-    
+   
     onClick = () => {
         this.setState({ playPauseStyle: this.state.playPauseStyle === "sp-button-play" ? "sp-button-pause" : "sp-button-play" });        
     }
