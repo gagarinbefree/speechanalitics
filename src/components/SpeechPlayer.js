@@ -22,15 +22,15 @@ class SpeechPlayer extends React.Component {
                     <Media ref={this.mediaRef}>
                         <div className="media w-100">
                             <Player src="audio.wav" ref={this.audioRef} />
-                            <div className="col-xl-1 .col-lg-1.col-md-1 .col-sm-1 col-1" style={{maxWidth:"100%"}} ref={this.buttonRef}>
+                            <div className="col-xl-1 col-lg-1 col-md-2 col-sm-3 col-2" ref={this.buttonRef}>
                                 <div className="mt-1 ml-3">
                                     <PlayPause className={this.state.playPauseStyle} ref={this.buttonRef}/>
                                 </div>
                             </div>
-                            <div className="col-xl-9 .col-lg-9.col-md-9 .col-sm-9 col-8 w-100">
+                            <div className="col-xl-9 col-lg-8 col-md-7 col-sm-6 col-8 w-100">
                                 <SeekBar />
                             </div>
-                            <div className="col-xl-2 .col-lg-2 .col-md-2 .col-sm-2 .col-3">
+                            <div className="col-xl-2 col-lg-3 col-md-3 col-sm-3 col-1">
                                 <p className="mt-2 ml-2 text-nowrap text-muted mw-100 text-center"><small><CurrentTime />/<Duration /></small></p>
                             </div>
                         </div>
