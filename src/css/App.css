@@ -54,6 +54,7 @@ body {
   width: 32px;
   font-size: 0px;
   cursor: pointer;
+  z-index: 10;
 }
 
 :focus {
@@ -68,6 +69,7 @@ body {
   width: 32px;
   font-size: 0px;
   cursor: pointer;
+  z-index: 10;
 }
 
 input[type=range] {
