@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ee989e537c602c6b1ce7ea70c33e3bc7",
+    "revision": "382fad41fd095d128da4626822ea24eb",
     "url": "/speechanalitics/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/speechanalitics/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "3814c5192a61b406837a",
+    "revision": "f6f970208fc87a072a2c",
     "url": "/speechanalitics/static/css/main.3a694b81.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/speechanalitics/static/js/2.df5a2fb7.chunk.js"
   },
   {
-    "revision": "3814c5192a61b406837a",
-    "url": "/speechanalitics/static/js/main.8171674b.chunk.js"
+    "revision": "f6f970208fc87a072a2c",
+    "url": "/speechanalitics/static/js/main.1fda6a16.chunk.js"
   },
   {
     "revision": "d97865a73b9f45fcc19a",
