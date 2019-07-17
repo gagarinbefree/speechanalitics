@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.228c73ca.chunk.css",
+    "main.js": "/static/js/main.21e1fb3b.chunk.js",
+    "main.js.map": "/static/js/main.21e1fb3b.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.99aa61ae.chunk.js": "/static/js/2.99aa61ae.chunk.js",
+    "static/js/2.99aa61ae.chunk.js.map": "/static/js/2.99aa61ae.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.93cf61b3e4e64ba06c93a72b9da5f1fd.js": "/precache-manifest.93cf61b3e4e64ba06c93a72b9da5f1fd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.228c73ca.chunk.css.map": "/static/css/main.228c73ca.chunk.css.map",
+    "static/media/SpeechPlayer.css": "/static/media/play.f78ba2ef.png"
+  }
+}
