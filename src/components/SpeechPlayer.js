@@ -22,7 +22,7 @@ class SpeechPlayer extends React.Component {
                     <Media ref={this.mediaRef}>
                         <div className="media w-100">
                             <Player src="audio.wav" ref={this.audioRef} />
-                            <div className="col-xl-1 .col-lg-1.col-md-1 .col-sm-1 col-1" style={{maxWidth:"100%"}} onClick={this.onClick}>
+                            <div className="col-xl-1 .col-lg-1.col-md-1 .col-sm-1 col-1" style={{maxWidth:"100%"}} ref={this.buttonRef}>
                                 <div className="mt-1 ml-3">
                                     <PlayPause className={this.state.playPauseStyle} ref={this.buttonRef}/>
                                 </div>
@@ -41,7 +41,7 @@ class SpeechPlayer extends React.Component {
     }
 
     componentDidMount() {
-        //document.getElementsByClassName("sp-button-play")[0].addEventListener("click", this.onClick, false);
+        this.buttonRef.current.addEventListener("click", this.onClick, false);
         this.interval = setInterval(() => this.props.onTimeUpdate(this.audioRef.current.instance.currentTime), 100);
     }
    
