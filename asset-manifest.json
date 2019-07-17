@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.228c73ca.chunk.css",
-    "main.js": "/static/js/main.21e1fb3b.chunk.js",
-    "main.js.map": "/static/js/main.21e1fb3b.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.22a7d4ef.chunk.css": "/static/css/2.22a7d4ef.chunk.css",
-    "static/js/2.99aa61ae.chunk.js": "/static/js/2.99aa61ae.chunk.js",
-    "static/js/2.99aa61ae.chunk.js.map": "/static/js/2.99aa61ae.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.93cf61b3e4e64ba06c93a72b9da5f1fd.js": "/precache-manifest.93cf61b3e4e64ba06c93a72b9da5f1fd.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.22a7d4ef.chunk.css.map": "/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.228c73ca.chunk.css.map": "/static/css/main.228c73ca.chunk.css.map",
-    "static/media/SpeechPlayer.css": "/static/media/play.f78ba2ef.png"
+    "main.css": "/speechanalitics/static/css/main.d529de21.chunk.css",
+    "main.js": "/speechanalitics/static/js/main.18f6c363.chunk.js",
+    "main.js.map": "/speechanalitics/static/js/main.18f6c363.chunk.js.map",
+    "runtime~main.js": "/speechanalitics/static/js/runtime~main.ef31742f.js",
+    "runtime~main.js.map": "/speechanalitics/static/js/runtime~main.ef31742f.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/speechanalitics/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.99aa61ae.chunk.js": "/speechanalitics/static/js/2.99aa61ae.chunk.js",
+    "static/js/2.99aa61ae.chunk.js.map": "/speechanalitics/static/js/2.99aa61ae.chunk.js.map",
+    "index.html": "/speechanalitics/index.html",
+    "precache-manifest.41ef9700356e293a3f892c52ff14db10.js": "/speechanalitics/precache-manifest.41ef9700356e293a3f892c52ff14db10.js",
+    "service-worker.js": "/speechanalitics/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/speechanalitics/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.d529de21.chunk.css.map": "/speechanalitics/static/css/main.d529de21.chunk.css.map",
+    "static/media/SpeechPlayer.css": "/speechanalitics/static/media/play.f78ba2ef.png"
   }
 }
